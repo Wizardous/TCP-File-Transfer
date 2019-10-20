@@ -1,0 +1,9 @@
+1.This is Test File.
+2.
+3.Format : Text
+4.Size : Less than 100 Bytes
+5.-------------------------------------------
+6.Destination : Server "Data/server_tses.txt"
+7.Source : Client "Data/client_test.txt"
+8.
+9.End of File
