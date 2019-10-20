@@ -7,7 +7,7 @@ The CPP files were compiled and ran on Ubuntu [WSL].
 Direction of file Transfer: Server to Client.  
 The path of text file to send can be changed in the `file_server.cpp` on line 37.  
   
-NOTE: The char array `buffer` in `file_client.cpp` is default to 1KB, you may need to increase the file size as per the larger file's size.  
+**NOTE**: The char array `buffer` in `file_client.cpp` is default to 1KB, you may need to increase the file size as per the larger file's size.  
 
 ## References for function used in the code...
 - Socket Programming basics : https://www.geeksforgeeks.org/socket-programming-cc/
