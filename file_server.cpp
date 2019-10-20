@@ -48,15 +48,15 @@ class Server_socket{
             if ((general_socket_descriptor = socket(AF_INET, SOCK_STREAM, 0)) == 0) { 
                 perror("[ERROR] : Socket failed");
                 exit(EXIT_FAILURE);
-            } 
+            }
             cout<<"[LOG] : Socket Created Successfully.\n";
         }
 
         void bind_socket(){
             if (bind(general_socket_descriptor, (struct sockaddr *)&address, sizeof(address))<0) {
-                perror("[ERROR] : Bind failed"); 
-                exit(EXIT_FAILURE); 
-            } 
+                perror("[ERROR] : Bind failed");
+                exit(EXIT_FAILURE);
+            }
             cout<<"[LOG] : Bind Successful.\n";
         }
 
