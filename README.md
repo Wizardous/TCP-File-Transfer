@@ -29,4 +29,4 @@ The path of text file to send can be changed in the `file_server.cpp` on line 37
 https://stackoverflow.com/questions/18398167/how-to-copy-a-txt-file-to-a-char-array-in-c
 
 
-All the Best!
+Good luck!
